@@ -236,11 +236,11 @@
 
 @media only all and (max-width: 576px) { .c-page-heading__description { margin: 24px auto 0; } }
 
-@media all, bookshop { .c-page-image { position: relative; transform: translate(0); margin-bottom: 48px; min-height: 280px; border-radius: 16px; overflow: hidden; background: #d5dce3; } .c-page-image img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; user-select: none; } }
+@media all, bookshop { .c-page-image { position: relative; transform: translate(0); width: 50%; height: 500px; margin: auto; margin-bottom: 48px; min-height: 280px; border-radius: 16px; overflow: hidden; background: #d5dce3; } .c-page-image img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; user-select: none; } }
 
-@media only all and (max-width: 1024px) { .c-page-image { width: 50%; height: 600px; margin: auto; margin-bottom: 40px; } }
+@media only all and (max-width: 1024px) { .c-page-image { margin-bottom: 40px; } }
 
-@media only all and (max-width: 576px) { .c-page-image { margin-bottom: 32px; } }
+@media only all and (max-width: 576px) { .c-page-image { margin-bottom: 32px; width: 100%; } }
 
 @media all, bookshop { /* Posts List */ .article { margin-bottom: 20px; will-change: transform; transition: transform .2s; } .article:hover { transform: translateY(-4px); } .article:hover .article__inner { box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1); } }
 
